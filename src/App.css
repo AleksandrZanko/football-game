@@ -1,0 +1,196 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  padding: 0;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  background-color: #cff4fc;
+  min-height: 50px;
+  font-size: calc(10px + 2vmin);
+  color: #000000;
+}
+
+.header-p {
+  margin: 0;
+  padding: 0;
+
+  font-family: Verdana;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  margin-top: 30px;
+}
+
+.game-title {
+  margin-bottom: 25px;
+
+  width: 100%;
+
+  font-family: "Pangolin", cursive;
+  font-size: 26px;
+  line-height: 1.5;
+}
+
+.game-card {
+  width: 30%;
+}
+
+.wrapper-table-data {
+  display: flex;
+  justify-content: space-around;
+
+  font-family: Verdana;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.question-text {
+  margin-bottom: 20px;
+
+  font-family: Verdana;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.answers-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.answers-item {
+  width: 46%;
+}
+
+.table-title {
+  font-size: 20px;
+  font-family: Verdana;
+}
+
+.progress {
+  margin-bottom: 20px;
+}
+
+.result-card {
+  width: 30%;
+}
+
+.result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 30px;
+}
+
+.success-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  margin-bottom: 30px;
+}
+
+.success {
+  display: flex;
+  flex-direction: column-reverse;
+
+  height: 150px;
+  width: 25px;
+
+  margin-right: 25px;
+
+  border: 1px solid gold;
+  border-radius: 5px;
+}
+
+.success-rate {
+  width: 100%;
+  background-color: gold;
+}
+
+.success-text {
+  font-size: 18px;
+  line-height: 1.2;
+  font-family: Verdana;
+}
+
+.result-text {
+  font-family: Verdana;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.result-buttons-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.weather-wrapper {
+  position: absolute;
+  top: 80px;
+  right: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  width: 250px;
+  min-height: 68px;
+}
+
+.weather-title {
+  margin: 0;
+  padding: 0;
+
+  font-family: Verdana;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.weather-text {
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+@media (max-width: 800px) {
+  .game {
+    margin-top: 20px;
+  }
+
+  .game-card,
+  .result-card {
+    width: 90%;
+  }
+
+  .game-title {
+    padding: 0 10px;
+    font-size: 20px;
+  }
+
+  .button-finish {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .weather-wrapper {
+    display: none;
+  }
+}
