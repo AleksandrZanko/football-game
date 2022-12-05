@@ -12,7 +12,7 @@ const store = createStore(rootReducer, compose(
 	applyMiddleware(
 		thunk
 	),
-	(window as any).window.__REDUX_DEVTOOLS_EXTENSION__ && (window as any).window.__REDUX_DEVTOOLS_EXTENSION__()
+	// (window as any).window.__REDUX_DEVTOOLS_EXTENSION__ && (window as any).window.__REDUX_DEVTOOLS_EXTENSION__()
 	//для диспатча асинхронных событий
 ));
 

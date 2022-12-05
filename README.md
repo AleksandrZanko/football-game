@@ -9,5 +9,7 @@ Training project football-game. Quiz game.
 
 ### You can run this project locally just do:
 1. git clone https://github.com/AleksandrZanko/football-game.git
-2. npm install
-3. npm start
+2. npm install 
+3. npm run build
+4. npm install -g serve
+5. serve -s build
